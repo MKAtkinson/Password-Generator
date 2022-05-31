@@ -37,33 +37,33 @@ function writePassword() {
 
   if(upperBoolean===true) {
     //array math goes here
-    // charUpper = (upperArray[Math.floor(Math.random()* 26)]);
-    // console.log(charUpper)
+     charUpper = (upperArray[Math.floor(Math.random()* 26)]);
+     console.log(charUpper)
 
-    return String.fromCharCode(Math.floor(Math.random() * 26) + 97)
+    //return String.fromCharCode(Math.floor(Math.random() * 26) + 97)
 
   }
   if(lowerBoolean===true){
-    // charLower = (lowerArray[Math.floor(Math.random()* 26)]);
-    // console.log(charLower)
+     charLower = (lowerArray[Math.floor(Math.random()* 26)]);
+     console.log(charLower)
 
-    return String.fromCharCode(Math.floor(Math.random() * 26) + 65)
+   // return String.fromCharCode(Math.floor(Math.random() * 26) + 65)
 
 
 
   }
   if(numberBoolean===true){
-    //charNumber = (numberArray[Math.floor(Math.random()* 10)]);
-    //console.log(charNumber)
+    charNumber = (numberArray[Math.floor(Math.random()* 10)]);
+    console.log(charNumber)
 
-    return String.fromCharCode(Math.floor(Math.random() * 10) + 48)
+   // return String.fromCharCode(Math.floor(Math.random() * 10) + 48)
 
   }
   if(specialBoolean===true){
     const symbols = "!@#$%^&*(){}<>?"
-    return symbols [Math.floor(Math.random() * symbols.length)]
-    //charSpecial = (specialArray[Math.floor(Math.random()* 10)]);
-    //console.log(charSpecial)
+    //return symbols [Math.floor(Math.random() * symbols.length)]
+    charSpecial = (specialArray[Math.floor(Math.random()* 10)]);
+    console.log(charSpecial)
 
 
 
